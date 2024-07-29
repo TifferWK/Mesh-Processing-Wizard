@@ -211,6 +211,7 @@ public class MeshProcessorAndOrganizer : EditorWindow
         //copy all your details... I have no idea how many UVs you have so I'm just going to make this look ugly. 
         newMesh.vertices = originalMesh.vertices;
         newMesh.uv = originalMesh.uv;
+        newMesh.uv1 = originalMesh.uv1;
         newMesh.uv2 = originalMesh.uv2;
         newMesh.uv3 = originalMesh.uv3;
         newMesh.uv4 = originalMesh.uv4;
